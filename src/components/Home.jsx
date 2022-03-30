@@ -3,11 +3,24 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import "./home.css";
 import limage from "../images/pp.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
+    <div className="homepage">
       <Navbar />
+      <div className="topdiv">
+        <h2 className="heading">India’s largest learning platform</h2>
+        <button id="lb">Start Learning</button>
+        <div id="toplink">
+          <span>Popular goals</span> <Link to={""}>UPSC CSE - GS</Link>
+          <Link to={""}>IIT JEE</Link>
+          <Link to={""}>NEET UG</Link>
+          <Link to={""}>NTA-UGC-NET & SET Exams</Link>
+          <Link to={""}>Bank Exams</Link>
+          <Link to={""}>GATE & ESE</Link>
+        </div>
+      </div>
       <div className="carddiv">
         <div>
           <img
