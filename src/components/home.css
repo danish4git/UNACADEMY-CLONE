@@ -1,0 +1,96 @@
+.carddiv {
+  display: flex;
+  margin: 100px 190px;
+  justify-content: space-between;
+  line-height: 20px;
+}
+.carddiv > div {
+  width: 30%;
+}
+.carddiv > div > p {
+  font-size: 15px;
+}
+.carddiv > div > img {
+  width: 100%;
+}
+
+.appdiv {
+  display: flex;
+  /* font-size: 14px; */
+}
+
+.getappdiv {
+  margin: 100px 190px;
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mobile {
+  width: 450px;
+}
+.applink {
+  width: 150px;
+  height: 50px;
+  margin-right: 18px;
+}
+
+.galeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: rgb(180, 33, 33); */
+}
+.galeft > p {
+  /* font-size: 50px; */
+  margin-bottom: 40px;
+}
+
+.galeft > h2 {
+  font-size: 40px;
+}
+/* h2 {
+  font-size: 40px;
+} */
+.startlearningdiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 190px;
+}
+.startlearningdiv > img {
+  width: 50%;
+}
+.startlearningdiv > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+#lb {
+  width: 200px;
+  /* background-color: brown; */
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+#lb {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#lb:hover,
+#lb:focus,
+#lb:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
