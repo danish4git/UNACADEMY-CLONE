@@ -43,9 +43,9 @@
   width: 30%;
 }
 .carddiv > div > p {
-  font-size: 15px;
-  letter-spacing: 1.2px;
-  line-height: 20px;
+  font-size: 16px;
+  /* letter-spacing: 1.2px; */
+  /* line-height: 20px; */
 }
 .carddiv > div > img {
   width: 100%;
@@ -61,7 +61,8 @@
   display: flex;
   justify-content: space-around;
   /* border: 2px solid black; */
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
 .galeft > p {
   font-size: 20px;
