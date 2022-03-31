@@ -34,6 +34,7 @@
 
 .carddiv {
   display: flex;
+  flex-wrap: wrap;
   margin: 100px 190px;
   justify-content: space-between;
   line-height: 20px;
@@ -128,4 +129,16 @@
 #lb:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}
+
+@media screen and (max-width: 950px) {
+  .carddiv {
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: auto; */
+  }
+
+  .carddiv > div {
+    width: 100%;
+  }
 }
