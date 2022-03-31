@@ -44,6 +44,8 @@
 }
 .carddiv > div > p {
   font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 20px;
 }
 .carddiv > div > img {
   width: 100%;
@@ -59,7 +61,11 @@
   display: flex;
   justify-content: space-around;
   /* border: 2px solid black; */
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.galeft > p {
+  font-size: 20px;
+  width: 400px;
 }
 
 .mobile {
@@ -84,6 +90,7 @@
 
 .galeft > h2 {
   font-size: 40px;
+  width: 350px;
 }
 /* h2 {
   font-size: 40px;
@@ -102,6 +109,13 @@
   flex-direction: column;
   /* align-items: center; */
   justify-content: center;
+}
+.startlearningdiv > div > h2 {
+  font-size: 40px;
+}
+.startlearningdiv > div > p {
+  font-size: 20px;
+  width: 350px;
 }
 #lb {
   width: 200px;
