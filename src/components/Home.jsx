@@ -12,7 +12,6 @@ const Home = () => {
       <div className="topdiv">
         <h2 className="heading">India’s largest learning platform</h2>
         <Link to={"/explore"}>
-          {" "}
           <button id="lb">Start Learning</button>
         </Link>
 
