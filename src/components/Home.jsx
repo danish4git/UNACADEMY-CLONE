@@ -11,7 +11,9 @@ const Home = () => {
       <Navbar />
       <div className="topdiv">
         <h2 className="heading">India’s largest learning platform</h2>
-        <button id="lb">Start Learning</button>
+        <Link to="/explore">
+          <button id="lb">Start Learning</button>
+        </Link>
         <div id="toplink">
           <span>Popular goals</span> <Link to={""}>UPSC CSE - GS</Link>
           <Link to={"/jee-main-and-advanced-preparation"}>IIT JEE</Link>
