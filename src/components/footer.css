@@ -13,7 +13,7 @@
   /* border: 2px solid blue; */
   padding-top: 10px;
 }
-h1 {
+.footerp > h1 {
   font-size: 14px;
   color: #949195;
   margin-bottom: 20px;
@@ -30,12 +30,12 @@ h1 {
   margin-right: 10px;
 }
 
-a {
+.footerp > p > a {
   text-decoration: none;
   color: black;
   font-size: 14px;
 }
-a:hover {
+.footerp > p > a:hover {
   color: #08bd80;
 }
 .logos > i {
@@ -55,7 +55,7 @@ a:hover {
   background-color: rgb(228, 228, 250);
 }
 
-p {
+.footerp > p {
   font-size: 14px;
 }
 .unimg {

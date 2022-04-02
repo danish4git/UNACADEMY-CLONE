@@ -7,7 +7,7 @@
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
-button {
+.nav-button {
   background-color: #08bd80;
   border-radius: 5px;
   padding: 12px 20px;
@@ -19,7 +19,7 @@ button {
   /* font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif; */
 }
 
-button {
+.nav-button {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -32,9 +32,9 @@ button {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-button:hover,
-button:focus,
-button:active {
+.nav-button:hover,
+.nav-button:focus,
+.nav-button:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }

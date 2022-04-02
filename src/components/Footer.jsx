@@ -44,7 +44,7 @@ const Footer = () => {
         <p>© 2022 Sorting Hat Technologies Pvt Ltd</p>
       </div>
 
-      <div>
+      <div className="footerp">
         <h1>COMPANY</h1>
         {COMPANY.map((e) => {
           return (
@@ -54,7 +54,7 @@ const Footer = () => {
           );
         })}
       </div>
-      <div>
+      <div className="footerp">
         <h1>POPULAR GOALS</h1>
         {POPULAR.map((e) => {
           return (
@@ -64,7 +64,7 @@ const Footer = () => {
           );
         })}
       </div>
-      <div>
+      <div className="footerp">
         <h1>OTHER LINKS</h1>
         {OTHER.map((e) => {
           return (
