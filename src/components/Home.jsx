@@ -14,7 +14,11 @@ const Home = () => {
         <button id="lb">Start Learning</button>
         <div id="toplink">
           <span>Popular goals</span> <Link to={""}>UPSC CSE - GS</Link>
+<<<<<<< Updated upstream
 
+=======
+          <Link to={"/jee-main-and-advanced-preparation"}>IIT JEE</Link>
+>>>>>>> Stashed changes
           <Link to={""}>NEET UG</Link>
           <Link to={""}>NTA-UGC-NET & SET Exams</Link>
           <Link to={""}>Bank Exams</Link>
