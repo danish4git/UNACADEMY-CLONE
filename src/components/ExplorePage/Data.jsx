@@ -1,7 +1,8 @@
-//* components => explore => data
+
 
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const DataComp = ({ items, cat, name, page }) => {
   const history = useNavigate();
@@ -12,15 +13,15 @@ export const DataComp = ({ items, cat, name, page }) => {
         <First>
           {items.map(({ id, name, img }) => {
             return (
-              <Second
-                key={id}
-                onClick={() => history.push(`/goal/${page}/${cat}/${id}`)}
-              >
-                <Image>
-                  <img src={img} alt="" />
-                </Image>
-                <Name>{name}</Name>
-              </Second>
+             <Link to={"/jee-main-and-advanced-preparation"} > <Second
+             key={id}
+             
+           >
+             <Image>
+               <img src={img} alt="" />
+             </Image>
+             <Name>{name}</Name>
+           </Second></Link>
             );
           })}
         </First>

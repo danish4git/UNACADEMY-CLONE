@@ -1,10 +1,13 @@
 
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 import Button from "@mui/material/Button";
 import React from "react";
 import plus from "./plus.css"
 import Slide from "./slideshow";
 import { Link ,useNavigate} from "react-router-dom";
 import { useState } from "react";
+
 
 const Plus=()=>{
     var c=185
@@ -38,7 +41,10 @@ const Plus=()=>{
         localStorage.setItem("Unacademy", JSON.stringify(data))
         navigate(`/subscription-plus-payment`);
     }
- return <div className="container">
+ return(
+     <>
+     <Navbar/>
+ <div className="container">
       <div className="t">
           <h1>IIt JEE subscription</h1>
           <img id="plus" src="https://cdn-images-1.medium.com/max/1000/1*D-iEUQeHUcl0K40bQYLLFQ.png" alt="" />
@@ -134,6 +140,9 @@ const Plus=()=>{
           </div>
       </div>
  </div>
+ <div style={{marginTop:"5%"}} > <Footer/></div>
+ </>
+ )
 }
 
 export default Plus;

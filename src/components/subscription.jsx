@@ -4,9 +4,14 @@ import React from "react";
 import subscription from "./subscription.css"
 import { Link } from "react-router-dom";
 
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 const GetSubscription = () => {
-  return <div className="con">
+  return( 
+    <>
+    <Navbar/>
+  <div className="con">
     <p className="main-heading">IIT JEE</p> 
       <p className="normal-text">Select a subscription plan that suits you</p>
      <div className="main">
@@ -89,7 +94,9 @@ const GetSubscription = () => {
           </div>
         </div>
       </div>
-  </div>;
+  </div>
+ <div style={{marginTop:"12%"}} > <Footer/></div>
+  </>);
 };
 
 export default GetSubscription;

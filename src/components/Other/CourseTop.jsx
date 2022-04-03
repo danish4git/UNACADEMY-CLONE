@@ -24,12 +24,13 @@ export const CourseTop = () => {
             from India's best educators
           </p>
         </div>
+        
         <div style={{ marginTop: "50px" }}>
-         <Link to={"/subscription"}> <Button
+         <Button
             rapperClass={"button-link"}
             classname={"green-button"}
             btnText={"Get subscription"}
-          /></Link>
+          />
         </div>
         <div>
           <LinkButton

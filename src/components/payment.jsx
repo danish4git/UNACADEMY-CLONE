@@ -1,12 +1,17 @@
 import React from "react";
-import plus from "./payment.css"
+import plus from "./payment.css";
 import Button from "@mui/material/Button";
 
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 export const Payment=()=>{
     const arr = JSON.parse(localStorage.getItem("Unacademy"));
-    return <div className="container3">
+    return (
+    <>
+    <Navbar/>
+    <div className="container3">
        <div className="lt">
            <div className="first">
                <div className="jkhsd"></div>
@@ -70,4 +75,6 @@ export const Payment=()=>{
            </div>
        </div>
     </div>
+    <div style={{marginTop:"5%"}} > <Footer/></div>
+    </>)
 }
