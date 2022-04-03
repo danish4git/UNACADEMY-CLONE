@@ -1,5 +1,7 @@
+
 import { Button } from "../Buttons/Button";
 import { LinkButton } from "../Buttons/Link-Button";
+import { Link } from "react-router-dom";
 
 export const CourseTop = () => {
   return (
@@ -23,11 +25,11 @@ export const CourseTop = () => {
           </p>
         </div>
         <div style={{ marginTop: "50px" }}>
-          <Button
+         <Link to={"/subscription"}> <Button
             rapperClass={"button-link"}
             classname={"green-button"}
             btnText={"Get subscription"}
-          />
+          /></Link>
         </div>
         <div>
           <LinkButton

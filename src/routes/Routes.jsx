@@ -3,6 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../components/Home";
 import { AllClasses } from "../components/pages/AllClasses";
 import { CoursePage } from "../components/pages/Coursepage";
+import { Payment } from "../components/payment";
+import Plus from "../components/plus";
+import GetSubscription from "../components/subscription";
 import { ExplorePage } from "../pages/ExplorePage";
 
 const AllRoutes = () => {
@@ -21,6 +24,11 @@ const AllRoutes = () => {
         ></Route>
 
         <Route path="/explore" element={<ExplorePage />}></Route>
+        <Route path="/subscription" element={<GetSubscription />}></Route>
+        <Route path="/subscription-plus" element={<Plus />}></Route>
+        <Route path="/subscription-plus-payment" element={<Payment />}></Route>
+
+
       </Routes>
     </div>
   );

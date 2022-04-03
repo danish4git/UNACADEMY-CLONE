@@ -95,7 +95,7 @@ export const LiteSubscription = () => {
         </div>
 
         <div>
-          <LinkTag to={""}>View pricing</LinkTag>
+          <LinkTag to={"/subscription"}>View pricing</LinkTag>
         </div>
       </BottomDiv>
     </Sections>

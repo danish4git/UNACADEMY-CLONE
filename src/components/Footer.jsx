@@ -79,14 +79,14 @@ const Footer = () => {
         <div className="appdiv">
           <a href="">
             <img
-              className="applink"
+              className="applink2"
               src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128"
               alt=""
             />
           </a>
           <a href="">
             <img
-              className="applink"
+              className="applink2"
               src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=128"
               alt=""
             />
@@ -96,14 +96,14 @@ const Footer = () => {
         <div className="appdiv">
           <a href="">
             <img
-              className="applink"
+              className="applink2"
               src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128"
               alt=""
             />
           </a>
           <a href="">
             <img
-              className="applink"
+              className="applink2"
               src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=128"
               alt=""
             />
