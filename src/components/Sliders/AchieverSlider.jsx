@@ -289,19 +289,19 @@ export const AchieverSlider = () => {
           <div className="tree-profile-pic">
             <span>
               <img
-                src="https://static.uacdn.net/iit_rankers_avatars/amaiya_iit.png"
+                src="https://static.uacdn.net/iit_rankers_avatars/pratham_iit.png"
                 alt=""
               />
             </span>
             <span className="middle">
               <img
-                src="https://static.uacdn.net/iit_rankers_avatars/amaiya_iit.png"
+                src="https://static.uacdn.net/iit_rankers_avatars/bratin_iit.png"
                 alt=""
               />
             </span>
             <span>
               <img
-                src="https://static.uacdn.net/iit_rankers_avatars/amaiya_iit.png"
+                src="https://static.uacdn.net/iit_rankers_avatars/tanmey_iit.png"
                 alt=""
               />
             </span>
