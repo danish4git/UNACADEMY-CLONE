@@ -13,6 +13,7 @@ export const CoursesSoon = () => {
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 6px;
+    pointer-events: none;
   `;
 
   const DivTop = styled.div`
@@ -39,7 +40,9 @@ export const CoursesSoon = () => {
             </p>
           </div>
           <div className="seeAll">
-            <LinkTag to={""}>See all</LinkTag>
+            <LinkTag to={"/jee-main-and-advanced-preparation/all-courses"}>
+              See all
+            </LinkTag>
           </div>
         </DivTop>
         <div>

@@ -13,6 +13,7 @@ export const BatcheSyllabus = () => {
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 6px;
+    pointer-events: none;
   `;
 
   const DivTop = styled.div`

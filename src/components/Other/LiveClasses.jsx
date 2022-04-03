@@ -117,9 +117,11 @@ export const LiveClasses = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/live_classes").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/live_classes")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
   console.log(data);
   return (
@@ -129,7 +131,9 @@ export const LiveClasses = () => {
         <h1>Live Classes</h1>
         <p>Experience Plus for free and start learning from the best</p>
         <div>
-          <LinkTag to={""}>See all</LinkTag>
+          <LinkTag to={"/jee-main-and-advanced-preparation/all-courses"}>
+            See all
+          </LinkTag>
         </div>
       </LeftDiv>
       <RightDiv>

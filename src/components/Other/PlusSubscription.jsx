@@ -56,9 +56,11 @@ export const PlusSubscription = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/Plus_Subscription").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/Plus_Subscription")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
 
   console.log(data);

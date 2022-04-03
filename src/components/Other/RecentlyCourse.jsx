@@ -33,7 +33,9 @@ export const RecentlyCourse = () => {
             <p>Start learning live from the best of our ongoing courses</p>
           </div>
           <div className="seeAll">
-            <LinkTag to={""}>See all</LinkTag>
+            <LinkTag to={"/jee-main-and-advanced-preparation/all-courses"}>
+              See all
+            </LinkTag>
           </div>
         </DivTop>
         <div>

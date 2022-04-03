@@ -55,9 +55,11 @@ export const Achievers = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/live_classes").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/live_classes")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
   console.log(data);
   return (

@@ -18,9 +18,11 @@ export const BatcheSlider = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/batches").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/batches")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
 
   console.log("Batcheslider", data);

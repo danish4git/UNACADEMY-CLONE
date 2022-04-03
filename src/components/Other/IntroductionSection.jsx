@@ -57,9 +57,11 @@ export const IntroductionSection = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/ICONIC_Subscription").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/ICONIC_Subscription")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
 
   console.log(data);

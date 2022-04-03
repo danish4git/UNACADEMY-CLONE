@@ -17,9 +17,11 @@ export const BestOfAllTimeSlider = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/best_courses").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/best_courses")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
 
   console.log("CourseSlider", data);

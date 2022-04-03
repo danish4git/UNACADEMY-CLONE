@@ -18,9 +18,11 @@ export const CoursesSoonSlider = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/courses_soon").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/courses_soon")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
 
   console.log("CourseSlider", data);

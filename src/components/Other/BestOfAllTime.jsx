@@ -36,7 +36,12 @@ export const BestOfAllTime = () => {
             </p>
           </div>
           <div className="seeAll">
-            <LinkTag to={""}>See all</LinkTag>
+            <LinkTag
+              to={"/jee-main-and-advanced-preparation/all-courses"}
+              style={{ textDecoration: "none" }}
+            >
+              See all
+            </LinkTag>
           </div>
         </DivTop>
         <div>

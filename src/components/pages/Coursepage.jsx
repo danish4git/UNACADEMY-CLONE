@@ -10,10 +10,13 @@ import { BatcheSyllabus } from "../Other/BatcheSyllabus";
 import { CoursesSoon } from "../Other/CoursesSoon";
 import { RecentlyCourse } from "../Other/RecentlyCourse";
 import { BestOfAllTime } from "../Other/BestOfAllTime";
-
+import { BestWayToPrepare } from "../Other/BestWayToPrepare";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 export const CoursePage = () => {
   return (
     <div style={{ backgroundColor: "#fcfcfc" }}>
+      <Navbar />
       <CourseTop />
       <IntroductionSection />
       <PlusSubscription />
@@ -24,6 +27,8 @@ export const CoursePage = () => {
       <CoursesSoon />
       <RecentlyCourse />
       <BestOfAllTime />
+      <BestWayToPrepare />
+      <Footer/>
     </div>
   );
 };

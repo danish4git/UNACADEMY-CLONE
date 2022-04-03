@@ -56,9 +56,11 @@ export const LiteSubscription = () => {
   }, []);
 
   const getDataFun = () => {
-    axios.get("http://localhost:3000/Lite_Subscription").then((res) => {
-      setData([...res.data]);
-    });
+    axios
+      .get("https://project-server-all.herokuapp.com/Lite_Subscription")
+      .then((res) => {
+        setData([...res.data]);
+      });
   };
 
   console.log(data);
