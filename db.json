@@ -458,6 +458,202 @@
       "educator": "Sachin Rana"
     }
   ],
+
+  "all_courses":[
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/6DAD57BF-ABF8-4D76-85E8-5BD0E1CF2B7E_plus.png?q=100&w=512",
+      "language": "ENGLISH",
+      "subject": "CHEMISTRY",
+      "title": "Complete Course on Environmental Chemistry",
+      "lesson_time": "Ended on Nov 27, 2020 •  Lesson 2",
+      "educator": "Mohammad Kashif Alam"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/51DDCC92-8B58-45A1-9FA8-3286DEDD143A_plus.png?q=100&w=512",
+      "language": "ENGLISH",
+      "subject": "CHEMISTRY",
+      "title": "Emerge: Course on Chemical Bonding",
+      "lesson_time": "Ended on Dec 9, 2021 •  Lesson 33",
+      "educator": "Piyush Maheshwari"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/5E249874-507C-42C8-8330-F411C3EE7964_plus.png?q=100&w=512",
+      "language": "ENGLISH",
+      "subject": "CHEMISTRY",
+      "title": "Crash Course on Trigonometry",
+      "lesson_time": "Lesson 9 •  Apr 3, 2022",
+      "educator": "E V Kiran Kumar"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/51DDCC92-8B58-45A1-9FA8-3286DEDD143A_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "PHYSICS",
+      "title": "Course on Units & Dimensions, Basic Mathematics & Vectors",
+      "lesson_time": "Lesson 2 •  Apr 4, 2022",
+      "educator": "Namo Kaul"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/62758950-18DE-4AEA-A111-EB817BC76F65_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "MATHEMATICS",
+      "title": "Basic to Advance of Application of Derivative, Differential Equation & AUC",
+      "lesson_time": "Lesson 2 • Today, 1:30 PM",
+      "educator": "Manoj Chauhan"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/48C77F75-C510-4DC4-853D-1A44844185C1_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "Course on Thermodynamics - First Law and Application",
+      "lesson_time": "Lesson 4 • Apr 4, 2022",
+      "educator": "Neel Mani Srivastava"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/F0AF9AC5-539F-4196-95CB-AD48E29AFBBE_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "Emerge: Course on Salt Analysis for JEE 2023",
+      "lesson_time": "Lesson 4 • Apr 2, 2022",
+      "educator": "Rhushikesh Shende"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/C2014274-BCBC-4323-85E0-C077D677A9AF_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "MATHEMATICS",
+      "title": "Practice Course on Maths through Mock Papers for JEE 2022/23",
+      "lesson_time": "Lesson 12 • Apr 2, 2022",
+      "educator": "Ranvijay"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/48C77F75-C510-4DC4-853D-1A44844185C1_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "PHYSICS",
+      "title": "Course on Thermodynamics - First Law and Application",
+      "lesson_time": "Lesson 4 • Apr 4, 2022",
+      "educator": "Neel Mani Srivastava"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/49F52F45-6F7A-48DC-B29C-DD3F910F042A_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "JEE Main 2022: Final Revision Course for Class 12 & Droppers",
+      "lesson_time": "Lesson 4 • Apr 3, 2022",
+      "educator": "Sachin Rana"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/62758950-18DE-4AEA-A111-EB817BC76F65_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "MATHEMATICS",
+      "title": "Basic to Advance of Application of Derivative, Differential Equation & AUC",
+      "lesson_time": "Lesson 2 • Today, 1:30 PM",
+      "educator": "Manoj Chauhan"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/48C77F75-C510-4DC4-853D-1A44844185C1_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "Course on Thermodynamics - First Law and Application",
+      "lesson_time": "Lesson 4 • Apr 4, 2022",
+      "educator": "Neel Mani Srivastava"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/F0AF9AC5-539F-4196-95CB-AD48E29AFBBE_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "Emerge: Course on Salt Analysis for JEE 2023",
+      "lesson_time": "Lesson 4 • Apr 2, 2022",
+      "educator": "Rhushikesh Shende"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/C2014274-BCBC-4323-85E0-C077D677A9AF_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "MATHEMATICS",
+      "title": "Practice Course on Maths through Mock Papers for JEE 2022/23",
+      "lesson_time": "Lesson 12 • Apr 2, 2022",
+      "educator": "Ranvijay"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/48C77F75-C510-4DC4-853D-1A44844185C1_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "PHYSICS",
+      "title": "Course on Thermodynamics - First Law and Application",
+      "lesson_time": "Lesson 4 • Apr 4, 2022",
+      "educator": "Neel Mani Srivastava"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/49F52F45-6F7A-48DC-B29C-DD3F910F042A_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "JEE Main 2022: Final Revision Course for Class 12 & Droppers",
+      "lesson_time": "Lesson 4 • Apr 3, 2022",
+      "educator": "Sachin Rana"
+    },
+
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/5E249874-507C-42C8-8330-F411C3EE7964_plus.png?q=100&w=512",
+      "language": "ENGLISH",
+      "subject": "CHEMISTRY",
+      "title": "Crash Course on Trigonometry",
+      "lesson_time": "Lesson 9 •  Apr 3, 2022",
+      "educator": "E V Kiran Kumar"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/51DDCC92-8B58-45A1-9FA8-3286DEDD143A_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "PHYSICS",
+      "title": "Course on Units & Dimensions, Basic Mathematics & Vectors",
+      "lesson_time": "Lesson 2 •  Apr 4, 2022",
+      "educator": "Namo Kaul"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/62758950-18DE-4AEA-A111-EB817BC76F65_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "MATHEMATICS",
+      "title": "Basic to Advance of Application of Derivative, Differential Equation & AUC",
+      "lesson_time": "Lesson 2 • Today, 1:30 PM",
+      "educator": "Manoj Chauhan"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/48C77F75-C510-4DC4-853D-1A44844185C1_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "Course on Thermodynamics - First Law and Application",
+      "lesson_time": "Lesson 4 • Apr 4, 2022",
+      "educator": "Neel Mani Srivastava"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/F0AF9AC5-539F-4196-95CB-AD48E29AFBBE_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "Emerge: Course on Salt Analysis for JEE 2023",
+      "lesson_time": "Lesson 4 • Apr 2, 2022",
+      "educator": "Rhushikesh Shende"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/C2014274-BCBC-4323-85E0-C077D677A9AF_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "MATHEMATICS",
+      "title": "Practice Course on Maths through Mock Papers for JEE 2022/23",
+      "lesson_time": "Lesson 12 • Apr 2, 2022",
+      "educator": "Ranvijay"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/48C77F75-C510-4DC4-853D-1A44844185C1_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "PHYSICS",
+      "title": "Course on Thermodynamics - First Law and Application",
+      "lesson_time": "Lesson 4 • Apr 4, 2022",
+      "educator": "Neel Mani Srivastava"
+    },
+    {
+      "thumbnail": "https://static.uacdn.net/thumbnail/course/v2/49F52F45-6F7A-48DC-B29C-DD3F910F042A_plus.png?q=100&w=512",
+      "language": "HINDI",
+      "subject": "CHEMISTRY",
+      "title": "JEE Main 2022: Final Revision Course for Class 12 & Droppers",
+      "lesson_time": "Lesson 4 • Apr 3, 2022",
+      "educator": "Sachin Rana"
+    }
+  ],
   "JEE": [
     {
       "id": "1",

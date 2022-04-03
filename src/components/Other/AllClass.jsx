@@ -84,7 +84,7 @@ export const AllClass = () => {
 
   const getDataFun = () => {
     axios
-      .get("https://project-server-all.herokuapp.com/recently_courses")
+      .get("https://project-server-all.herokuapp.com/all_courses")
       .then((res) => {
         setData([...res.data]);
       });
